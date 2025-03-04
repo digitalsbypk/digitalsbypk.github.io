@@ -2951,6 +2951,30 @@ html.no-csstransitions .home-content__main {
   position: relative;
 }
 
+.services__img_lf {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  opacity: .8;
+}
+
+.services__img_lr {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 70%;
+  opacity: .8;
+}
+
+.services__img_um {
+  position: absolute;
+  top: 11%;
+  left: 38%;
+  height: 18%;
+  transform: rotate(35deg);
+}
+
 /* ------------------------------------------------------------------- 
  * ## services list
  * ------------------------------------------------------------------- */
@@ -2967,11 +2991,11 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-service:nth-child(2n+1) {
-  padding-right: 50px;
+  padding-right: .9rem;
 }
 
 .item-service:nth-child(2n+2) {
-  padding-left: 50px;
+  padding-left: .9rem;
 }
 
 .item-service__text {
@@ -3124,6 +3148,7 @@ html.no-csstransitions .home-content__main {
 .item-folio {
   position: relative;
   overflow: hidden;
+  padding: .5rem;
 }
 
 .item-folio__thumb img {
@@ -3646,6 +3671,11 @@ html.no-csstransitions .home-content__main {
   color: rgba(255, 255, 255, 0.3);
   position: relative;
 }
+
+.s-contact .grid-overlay > div {
+  display: none;
+}
+
 .s-contact a {
   color: #ffffff;
   border-bottom: 1px solid transparent;
